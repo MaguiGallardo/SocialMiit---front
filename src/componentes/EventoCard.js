@@ -1,8 +1,10 @@
+import icon from "../../public/logo192.png";
+
 function EventoCard(){
     return (
         
         <div>
-            <img src=""/>
+            <img src={icon}/>
 
         
             <div>
