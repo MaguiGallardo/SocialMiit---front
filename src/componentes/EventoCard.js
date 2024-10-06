@@ -1,21 +1,17 @@
-import icon from "../../public/logo192.png";
-
+import icon from "../logo.svg";
+import "./EventoCard.css";
 function EventoCard(){
     return (
-        
+     <div> 
         <div>
-            <img src={icon}/>
-
-        
+            <img src={icon} className="Imagen"/>
             <div>
-
                 <span>Nombre Evento</span>
                 <span>Descripción</span>
-                <span>Fecha y hora</span>
-
             </div>
-
         </div>
+        <span>Fecha y hora</span>
+    </div>
         
         
         
