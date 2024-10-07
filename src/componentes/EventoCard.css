@@ -1,4 +1,35 @@
 .Imagen{
-    height: 20px;
-    
+    height: 40px;
+    width: 40px;
+
+}
+
+.PrimerDiv{
+ display: flex;
+ flex-direction: row;
+}
+
+.SegundoDiv{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.DivMayor {
+    padding: 10px;
+    width: fit-content;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.txtFecha {
+    margin:0 0 0 10px;
+
+}
+
+.fechaHora{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

@@ -2,15 +2,19 @@ import icon from "../logo.svg";
 import "./EventoCard.css";
 function EventoCard(){
     return (
-     <div> 
-        <div>
+     <div className="DivMayor"> 
+        <div className="PrimerDiv">
             <img src={icon} className="Imagen"/>
-            <div>
+            <div className="SegundoDiv">
                 <span>Nombre Evento</span>
                 <span>Descripción</span>
             </div>
         </div>
-        <span>Fecha y hora</span>
+        <div className="fechaHora">
+         <span className="txtFecha">Fecha</span>
+         <span className="txtHora">hora</span>
+        </div>
+       
     </div>
         
         
